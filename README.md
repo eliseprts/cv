@@ -1,5 +1,7 @@
 # CV WITH BOOTSTRAP
 
+* Selflearning
+
 ## Technologies used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -9,8 +11,16 @@
 
 ## Learning Objectives
 
-Strengthen my Bootstrap skills
+* Strengthen my Bootstrap skills
 
 ## Mission
 
 Create my resum as a responsive web page using Bootstrap
+
+## Result
+
+[View delpoyement](https://eliseprts.github.io/cv/)
+
+<p align="center">
+    <img src="/assets/img/screenshot.png" style="width:700px">
+</p>
