@@ -1,0 +1,28 @@
+.timeline::before {
+  content: "";
+  position: relative;
+  top: 0px;
+  left: 25%;
+  bottom: 0px;
+  width: 2px;
+  background-color: #e9ecef;
+}
+.timeline .timeline-box:nth-child(odd) {
+  text-align: right;
+  transform: translateX(-50%);
+  padding-right: 30px;
+}
+.timeline .timeline-box:nth-child(odd) .timeline-icon {
+  right: -7px;
+  top: 55px;
+  position: absolute;
+}
+.timeline .timeline-box:nth-child(even) {
+  transform: translateX(50%);
+  padding-left: 30px;
+}
+.timeline .timeline-box:nth-child(even) .timeline-icon {
+  left: -9px;
+  top: 55px;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
