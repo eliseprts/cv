@@ -19,7 +19,7 @@ Create my resum as a responsive web page using Bootstrap
 
 ## Result
 
-[View delpoyement](https://eliseprts.github.io/cv/)
+🚀 [View delpoyement](https://eliseprts.github.io/cv/)
 
 <p align="center">
     <img src="/assets/img/screenshot.png" style="width:700px">
