@@ -14,3 +14,7 @@ Strengthen my Bootstrap skills
 ## Mission
 
 Create my resum as a responsive web page using Bootstrap
+
+## Result
+
+[View delpoyement](https://eliseprts.github.io/cv/)
