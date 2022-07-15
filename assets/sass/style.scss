@@ -1,13 +1,29 @@
-.timeline {
-    border-left: 2px dotted #e9ecef;
-    margin-left: 200px;
-    .timeline-box {
-        padding-left: 20px;
-        margin-bottom: 30px;
+.timeline{
+    &::before {
+        content: "";
         position: relative;
+        top: 0px;
+        left: 25%;
+        bottom: 0px;
+        width: 2px;
+        background-color: #e9ecef;
+    }
+    .timeline-box:nth-child(odd) {
+        text-align: right;
+        transform: translateX(-50%);
+        padding-right: 30px; 
+        .timeline-icon {
+            right: -7px;
+            top: 55px;
+            position: absolute;
+        }
+    }
+    .timeline-box:nth-child(even) {
+        transform: translateX(50%);
+        padding-left: 30px;
         .timeline-icon {
             left: -9px;
-            top: 6px;
+            top: 55px;
             position: absolute;
         }
     }
