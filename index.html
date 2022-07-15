@@ -15,17 +15,18 @@
     
  <!-- NAVBAR -->
 <header class="py-4">
-    <nav class="navbar navbar-expand fixed-top navbar-light bg-light shadow-sm">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
         <div class="container">
-            <a href="#" class="navbar-brander text-primary text-uppercase fw-bold text-decoration-none">Elise Pourtois</a>
-            <div class="justify-content-end">
-                <ul class="navbar-nav fw-light">
-                    <li class="nav-item"><a class="nav-link active" href="#presentation">Qui suis-je ?</a></li>
+            <a href="#presentation" class="navbar-brand text-primary text-uppercase fw-bold text-decoration-none">Elise Pourtois</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fw-light text-uppercase">
                     <li class="nav-item"><a class="nav-link active" href="#competences">Mes compétences</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#experience">Mon parcours</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link active" href="#formation">Ma formation</a></li> -->
                     <li class="nav-item"><a class="nav-link active" href="#hobbies">Mes hobbies</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-md-2" href="mailto:elise.prts@gmail.com">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -38,16 +39,16 @@
     <!-- Présentation -->
     <section id="presentation" class="my-5">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-4 d-flex flex-column align-items-end">
+            <div class="row d-flex justify-content-center align-items-center flex-column flex-lg-row">
+                <div class="col-6 d-flex justify-content-center">
+                    <img class="rounded-circle shadow-sm" height="400px" src="./assets/img/photo_cv.JPG" alt="Elise Pourtois">
+                </div>
+                <div class="col d-flex flex-column align-items-center pt-5 col-lg-4 pt-lg-0 align-items-lg-start">
                     <h1 class="fw-bold fs-1">Elise Pourtois</h1>
                     <h2 class="fw-lighter">Junior Web Developer</h2>
                     <div>
-                        <button class="btn btn-lg btn-primary mt-5">Mon expérience</button>
+                        <button class="btn btn-lg btn-primary mt-5">Découvrir mon parcours</button>
                     </div>
-                </div>
-                <div class="col-6 d-flex justify-content-center">
-                    <img class="rounded-circle shadow-sm" height="400px" src="./assets/img/photo_cv.JPG" alt="Elise Pourtois">
                 </div>
             </div>
         </div>
@@ -57,8 +58,10 @@
     <section id="competences" class="py-5 bg-light">
         <div class="container">
             <h2 class="pb-5 text-center">Mes compétences</h2>
-            <div class="row pb-4 d-flex justify-content-center">
-                <div class="col-4">
+            
+            <div class="row gy-4 w-75 mx-auto">
+
+                <div class="col-sm-12 col-lg-6">
                     <div id="techniques" class="card h-100 shadow-sm border-0">
                         <div class="card-body">
                             <h3 class="border-bottom pb-2 fw-light text-primary">Techniques</h3>
@@ -82,7 +85,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+
+                <div class="col-sm-12 col-lg-6">
                     <div id="softskills" class="card h-100  shadow-sm border-0">
                         <div class="card-body fw-light">
                             <h3 class="border-bottom pb-2 fw-light text-primary">Softskills</h3>
@@ -96,9 +100,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row pb-5 d-flex justify-content-center">
-                <div class="col-4">
+
+                <div class="col-sm-12 col-lg-6">
                     <div id="langues" class="card h-100 shadow-sm border-0">
                         <div class="card-body fw-light">
                             <h3 class="border-bottom pb-2 fw-light text-primary">Langues</h3>
@@ -109,7 +112,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+
+                <div class="col-sm-12 col-lg-6">
                     <div id="personnalite" class="card h-100 shadow-sm border-0">
                         <div class="card-body fw-light">
                             <h3 class="border-bottom pb-2 fw-light text-primary">Personnalité</h3>
@@ -123,7 +127,9 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </div>
     </section>
 
